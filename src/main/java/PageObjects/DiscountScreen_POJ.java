@@ -25,5 +25,10 @@ public class DiscountScreen_POJ {
                 .perform();
         Thread.sleep(2000);
     }
+
+    By newDiscount = By.xpath("//input[@id='quoterEngine.question.groupSelection-input']");
+  public void discount (){
+      driver.findElement(newDiscount).click();
+  }
 }
 
